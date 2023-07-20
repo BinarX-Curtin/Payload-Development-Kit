@@ -7,7 +7,7 @@ Binar (BIN-ah) is the Noongar word for “fireball”. We’re a space program, 
 You can learn more about the space program and BinarX on our website: https://www.binarspace.com/binarx/.
 
 ## License
-Licensed under [CERN-OHL-P v2](LICENSE.txt) or later
+Licensed for reuse under [CERN-OHL-P v2](LICENSE.txt) or later
 
 > You may redistribute and modify this documentation and make products using it
 > under the terms of the CERN-OHL-P v2 or a later version (https:/cern.ch/cern-ohl).
