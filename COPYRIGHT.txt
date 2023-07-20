@@ -1,0 +1,4 @@
+Copyright (C) 2022 Curtin University All rights reserved.
+SPDX-License-Identifier: CERN-OHL-P-2.0
+
+See CONTRIBUTORS.txt for a list of contributors.
