@@ -23,7 +23,7 @@ If you have been provided with a Binar Payload Development Kit by the Binar Spac
 
 If you haven't been provided with a kit, you will need to source one of either type of power supply yourself.
 
-### Barrel Jack Power Supply (or similar)
+### Barrel Jack Power Supply (or similar alternative)
 | Manufacturer | Mfr Part Number | Qty | Supplier 1 | Supplier 1 PN | Supplier 2 | Supplier 2 PN |
 |--------------|-----------------|-----|------------|---------------|------------|---------------|
 | Powertran | [M8925D](https://www.altronics.com.au/p/m8925d-powertran-9v-dc-2a-fixed-2.1mm-tip-appliance-plugpack/) | 1 | Altronics | [M8925D](https://www.altronics.com.au/p/m8925d-powertran-9v-dc-2a-fixed-2.1mm-tip-appliance-plugpack/) | | |
