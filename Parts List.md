@@ -27,3 +27,8 @@ If you haven't been provided with a kit, you will need to source one of either t
 | Manufacturer | Mfr Part Number | Qty | Supplier 1 | Supplier 1 PN | Supplier 2 | Supplier 2 PN |
 |--------------|-----------------|-----|------------|---------------|------------|---------------|
 | Powertran | [M8925D](https://www.altronics.com.au/p/m8925d-powertran-9v-dc-2a-fixed-2.1mm-tip-appliance-plugpack/) | 1 | Altronics | [M8925D](https://www.altronics.com.au/p/m8925d-powertran-9v-dc-2a-fixed-2.1mm-tip-appliance-plugpack/) | | |
+
+## Benchtop Power Supply and Banana Plug Leads
+| Manufacturer | Mfr Part Number | Qty | Supplier 1 | Supplier 1 PN | Supplier 2 | Supplier 2 PN |
+|--------------|-----------------|-----|------------|---------------|------------|---------------|
+| TENMA | [	72-2685](https://au.element14.com/tenma/72-2685/bench-power-supply-1-ch-30v-3a/dp/256398101) | 1 | element14 | [256398101](https://au.element14.com/tenma/72-2685/bench-power-supply-1-ch-30v-3a/dp/256398101) | | |
