@@ -1,6 +1,8 @@
 # Payload-Development-Kit
 This repository contains the design files, documentation and manufacturing outputs to produce the Binar Payload Development Kit hardware which is used for developing spacecraft payloads compatible with Binar spacecraft.
 
+![image](https://github.com/BinarX-Curtin/Payload-Development-Kit/assets/12658669/13cac42c-6f16-4ecb-862d-39e3223d21c4)
+
 ## Binar and BinarX
 Binar (BIN-ah) is the Noongar word for fireball. We’re a space program, building the next generation of Australian small spacecraft, at Curtin University's Space Science and Technology Centre. BinarX is a two year program supporting high school students to design and build their own spacecraft payloads to fly on future Binar spacecraft.
 
@@ -10,7 +12,7 @@ You can learn more about the Binar Space Program and our BinarX payload developm
 I you have a Binar Payload Development Kit already, please see [Parts-List.md](Parts-List.md) for a list of additional components you may need to procure to get started with payload development. If don't have a Kit and you need to procure one, please see [Fabrication-and-Assembly.md](Fabrication-and-Assembly.md) for information on how to order and assemble your own development kit.
 
 ## License
-Licensed for reuse under [CERN-OHL-P v2](LICENSE.txt) or later
+Licensed under [CERN-OHL-P v2](LICENSE.txt) or later
 
 > You may redistribute and modify this documentation and make products using it
 > under the terms of the CERN-OHL-P v2 or a later version (https:/cern.ch/cern-ohl).

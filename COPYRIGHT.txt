@@ -1,4 +1,4 @@
-Copyright Curtin University 2023. All rights reserved.
+Copyright Curtin University 2023.
 
 Licensed under CERN-OHL-P v2 or later
 SPDX-License-Identifier: CERN-OHL-P-2.0+
