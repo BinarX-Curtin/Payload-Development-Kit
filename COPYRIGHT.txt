@@ -1,0 +1,16 @@
+Copyright Curtin University 2023. All rights reserved.
+
+Licensed under CERN-OHL-P v2 or later
+SPDX-License-Identifier: CERN-OHL-P-2.0+
+
+You may redistribute and modify this documentation and make products using it
+under the terms of the CERN-OHL-P v2 or a later version (https:/cern.ch/cern-ohl).
+This documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING
+OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE.
+Please see the CERN-OHL-P v2 or a later version for applicable conditions.
+
+Contributors:
+Robert Howie <robert-dot-howie[at]curtin-dot-edu-dot-au>
+
+Also see git repo on GitHub for contributors at:
+https://github.com/BinarX-Curtin/Payload-Development-Kit/graphs/contributors
