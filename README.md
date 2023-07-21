@@ -1,6 +1,8 @@
 # Payload-Development-Kit
 This repository contains the design files, documentation and manufacturing outputs to produce the Binar Payload Development Kit hardware which is used for developing spacecraft payloads compatible with Binar spacecraft.
 
+![image](https://github.com/BinarX-Curtin/Payload-Development-Kit/assets/12658669/13cac42c-6f16-4ecb-862d-39e3223d21c4)
+
 ## Binar and BinarX
 Binar (BIN-ah) is the Noongar word for fireball. We’re a space program, building the next generation of Australian small spacecraft, at Curtin University's Space Science and Technology Centre. BinarX is a two year program supporting high school students to design and build their own spacecraft payloads to fly on future Binar spacecraft.
 
