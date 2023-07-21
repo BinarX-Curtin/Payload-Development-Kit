@@ -19,7 +19,7 @@ If you haven't been provided with a kit, you will need to source the STMicroelec
 ## Power Supply
 You can power the board with either a benchtop power supply or a 2.1 mm centre positive barrel jack power supply.
 
-If you have been provided with a Binar Payload Development Kit by the Binar Space Program you have recieved a 9V 2A DC Power Supply with a 2.1 mm centre positive barrel jack. You can use this to start your payload development, but in order to replicate operation accross a more realistic range of voltages you may want to procure a benchtop power supply in the future.
+If you have been provided with a Binar Payload Development Kit by the Binar Space Program you may have been provided with a 9V 2A DC Power Supply with a 2.1 mm centre positive barrel jack. You can use this to start your payload development, but in order to replicate operation accross a more realistic range of voltages you may want to procure a benchtop power supply in the future.
 
 If you haven't been provided with a kit, you will need to source one of either type of power supply yourself.
 
@@ -42,3 +42,16 @@ If you haven't been provided with a kit, you will need to source one of either t
 | Manufacturer | Mfr Part Number | Qty | Supplier 1 | Supplier 1 PN | Supplier 2 | Supplier 2 PN |
 |--------------|-----------------|-----|------------|---------------|------------|---------------|
 | Hirschmann Test and Measurement | [934063100](https://www.sks-kontakt.de/en/test-measurement/products/product?nr=9340631) | 1 | element 14 | [4017870](https://au.element14.com/hirschmann-testmeasurement/934063101/test-lead-red-1m-60v-32a/dp/4017870) | | |
+
+## STMicroelectronics In-Circuit Debugger and Programmer for STM32 Microcontrollers
+In order to program the microcontroller controlling your payload with software, and debug the software during development a debugger is required.
+
+A STDC14 connector is provided on the left hand side of the Payload Development Kit Main PCB for connection of an STLINK debugger (if using an STM32 microcontroller on your payload). This is routed to a on piece connecter beneath the payload board for conveinient programming without the need to add a connector to your payload. Please see the PCB design files the pinout of this connector if you wish to use it.
+
+If you have been provided with a Binar Payload Development Kit by the Binar Space Program, you may have been provided with a [STLINK-V3MINIE](https://www.st.com/en/development-tools/stlink-v3minie.html).
+
+If you haven't been provided with a kit, you will need to source one yourself (if developing your payload with an STM32 microcontroller).
+
+| Manufacturer | Mfr Part Number | Qty | Supplier 1 | Supplier 1 PN | Supplier 2 | Supplier 2 PN |
+|--------------|-----------------|-----|------------|---------------|------------|---------------|
+| STMicroelectronics | [STLINK-V3MINIE](https://www.st.com/en/development-tools/stlink-v3minie.html) | 1 | Mouser | [511-STLINK-V3MINIE](https://au.mouser.com/ProductDetail/511-STLINK-V3MINIE) | Digikey | [497-STLINK-V3MINIE-ND](https://www.digikey.com.au/en/products/detail/stmicroelectronics/STLINK-V3MINIE/16284301)|
