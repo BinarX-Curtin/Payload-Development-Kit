@@ -12,7 +12,7 @@ You can learn more about the Binar Space Program and our BinarX payload developm
 I you have a Binar Payload Development Kit already, please see [Parts-List.md](Parts-List.md) for a list of additional components you may need to procure to get started with payload development. If don't have a Kit and you need to procure one, please see [Fabrication-and-Assembly.md](Fabrication-and-Assembly.md) for information on how to order and assemble your own development kit.
 
 ## License
-Licensed for reuse under [CERN-OHL-P v2](LICENSE.txt) or later
+Licensed under [CERN-OHL-P v2](LICENSE.txt) or later
 
 > You may redistribute and modify this documentation and make products using it
 > under the terms of the CERN-OHL-P v2 or a later version (https:/cern.ch/cern-ohl).
