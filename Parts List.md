@@ -41,7 +41,7 @@ If you haven't been provided with a kit, you will need to source one of either t
 ### 4mm Banana Plug Test Lead, 1m, Red (or similar alternative)
 | Manufacturer | Mfr Part Number | Qty | Supplier 1 | Supplier 1 PN | Supplier 2 | Supplier 2 PN |
 |--------------|-----------------|-----|------------|---------------|------------|---------------|
-| Hirschmann Test and Measurement | [934063100](https://www.sks-kontakt.de/en/test-measurement/products/product?nr=9340631) | 1 | element 14 | [4017870](https://au.element14.com/hirschmann-testmeasurement/934063101/test-lead-red-1m-60v-32a/dp/4017870) | | |
+| Hirschmann Test and Measurement | [934063101](https://www.sks-kontakt.de/en/test-measurement/products/product?nr=9340631) | 1 | element 14 | [4017870](https://au.element14.com/hirschmann-testmeasurement/934063101/test-lead-red-1m-60v-32a/dp/4017870) | | |
 
 ## 4. STMicroelectronics In-Circuit Debugger and Programmer for STM32 Microcontrollers
 In order to program the microcontroller controlling your payload with software, and debug the software during development a debugger is required.
