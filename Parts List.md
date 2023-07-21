@@ -12,12 +12,6 @@ If you have been provided with a Binar Payload Development Kit by the Binar Spac
 
 If you haven't been provided with a kit, you will need to source the STMicroelectronics NUCLEO-H743ZI2 Microcontroller Development Board and flash it with the Binar Spacecraft Emulator Software yourself.
 
-
-| Manufacturer | STMicroelectronics |
-|-|-|
-| Manufacturer Part Number | [NUCLEO-H743ZI2](https://www.st.com/en/evaluation-tools/nucleo-h743zi.html) |
-
-``Reccomended Supplier 1: Mouser
-Reccomended Supplier 1 Part Number: [511-NUCLEO-H743ZI2](https://www.mouser.com/ProductDetail/STMicroelectronics/NUCLEO-H743ZI2)
-Reccomended Supplier 2: Digikey
-Reccomended Supplier 2 Part Number: [497-19452-ND](https://www.digikey.com/en/products/detail/stmicroelectronics/NUCLEO-H743ZI2/10130892)
+| Manufacturer | Mfr Part Number | Qty | Supplier 1 | Supplier 1 PN | Supplier 2 | Supplier 2 PN |
+|--------------|-----------------|-----|------------|---------------|------------|---------------|
+| STMicroelectronics | [NUCLEO-H743ZI2](https://www.st.com/en/evaluation-tools/nucleo-h743zi.html) | 1 | Mouser | [511-NUCLEO-H743ZI2](https://www.mouser.com/ProductDetail/STMicroelectronics/NUCLEO-H743ZI2) | Digikey | [497-19452-ND](https://www.digikey.com/en/products/detail/stmicroelectronics/NUCLEO-H743ZI2/10130892)|
