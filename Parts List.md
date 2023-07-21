@@ -15,3 +15,15 @@ If you haven't been provided with a kit, you will need to source the STMicroelec
 | Manufacturer | Mfr Part Number | Qty | Supplier 1 | Supplier 1 PN | Supplier 2 | Supplier 2 PN |
 |--------------|-----------------|-----|------------|---------------|------------|---------------|
 | STMicroelectronics | [NUCLEO-H743ZI2](https://www.st.com/en/evaluation-tools/nucleo-h743zi.html) | 1 | Mouser | [511-NUCLEO-H743ZI2](https://www.mouser.com/ProductDetail/STMicroelectronics/NUCLEO-H743ZI2) | Digikey | [497-19452-ND](https://www.digikey.com/en/products/detail/stmicroelectronics/NUCLEO-H743ZI2/10130892)|
+
+## Power Supply
+You can power the board with either a benchtop power supply or a 2.1 mm centre positive barrel jack power supply.
+
+If you have been provided with a Binar Payload Development Kit by the Binar Space Program you have recieved a 9V 2A DC Power Supply with a 2.1 mm centre positive barrel jack. You can use this to start your payload development, but in order to replicate operation accross a more realistic range of voltages you may want to procure a benchtop power supply in the future.
+
+If you haven't been provided with a kit, you will need to source one of either type of power supply yourself.
+
+## Barrel Jack Power Supply
+| Manufacturer | Mfr Part Number | Qty | Supplier 1 | Supplier 1 PN | Supplier 2 | Supplier 2 PN |
+|--------------|-----------------|-----|------------|---------------|------------|---------------|
+| Powertran | [M8925D](https://www.altronics.com.au/p/m8925d-powertran-9v-dc-2a-fixed-2.1mm-tip-appliance-plugpack/) | 1 | Altronics | [M8925D](https://www.altronics.com.au/p/m8925d-powertran-9v-dc-2a-fixed-2.1mm-tip-appliance-plugpack/) | | |
