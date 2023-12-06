@@ -31,13 +31,14 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-IsProjectConflictPreventionWarningsEnabled=0
+IsProjectConflictPreventionWarningsEnabled=1
 IsVirtualBomDocumentRemoved=0
 OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
-VaultGUID=3291E871-BF2B-4833-AEF7-9CA0DA46D7F6
-ReleaseVaultName=Binar Space Program - Curtin University
+VaultGUID=
+ReleaseVaultName=
+ItemGUID=
 IncludeDesignInRelease=0
 CrossRefSheetStyle=1
 CrossRefLocationStyle=1
@@ -45,7 +46,7 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
-CurrentVariant=SPI and UART
+CurrentVariant=BinarX
 
 [Preferences]
 PrefsVaultGUID=
@@ -62,9 +63,7 @@ Assembly SPI Only (BinarX)=PCBA-`ProjectName`-`VariantName`
 Assembly SPI and UART=PCBA-`ProjectName`-`VariantName`
 
 [Release]
-ReleaseTarget=2
-ReleaseFolderPath=[OutputPath]
-ReleaseZipPath=[OutputPath][ProjectName].zip
+ReleaseTarget=3
 
 [Document1]
 DocumentPath=Payload Development Kit.SchDoc
@@ -151,38 +150,58 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document6]
+DocumentPath=Payload Development Kit.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [ProjectVariant1]
 UniqueID=1EA3DEEF-E9C5-41AC-8A1F-5E696EEA1DE6
-Description=SPI Only (BinarX)
+Description=BinarX
 AllowFabrication=0
 ParameterCount=0
-VariationCount=2
+VariationCount=4
 Variation1=Designator=J11|UniqueId=\BRXYLVRN|Kind=1|AlternatePart=
 Variation2=Designator=JP1|UniqueId=\PNTTDLPD|Kind=1|AlternatePart=
+Variation3=Designator=JP2|UniqueId=\IUTPTVHU|Kind=1|AlternatePart=
+Variation4=Designator=J12|UniqueId=\ZEXQCWZG|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [ProjectVariant2]
 UniqueID=6B6D2039-5B1E-43F2-9889-C84401F9F9D9
-Description=SPI and UART
+Description=AERO3001 Spacecraft Project
 AllowFabrication=0
 ParameterCount=0
-VariationCount=1
+VariationCount=6
 Variation1=Designator=JP1|UniqueId=\PNTTDLPD|Kind=1|AlternatePart=
+Variation2=Designator=C2|UniqueId=\YQDQHXDI|Kind=1|AlternatePart=
+Variation3=Designator=C3|UniqueId=\CUDVVMDS|Kind=1|AlternatePart=
+Variation4=Designator=R1|UniqueId=\WTVHNSVN|Kind=1|AlternatePart=
+Variation5=Designator=R2|UniqueId=\HOJCEQQE|Kind=1|AlternatePart=
+Variation6=Designator=U1|UniqueId=\MGYOWWYC|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for Payload Development Kit\Design Rule Check - Payload Development Kit.html
 DItemRevisionGUID=
 
-[GeneratedDocument2]
-DocumentPath=Project Outputs for Spacecraft Emulator\Design Rule Check - Spacecraft Emulator.html
-DItemRevisionGUID=
-
 [Configuration1]
 Name=Sources
 ParameterCount=0
 ConstraintFileCount=0
-ReleaseItemId=D541082F-F7B4-4071-9AAF-96B6456EA63F
+ReleaseItemId=
 Variant=[No Variations]
 OutputJobsCount=1
 DocumentReferenceClass1=DocumentReference
@@ -194,7 +213,7 @@ ConfigurationType=Source
 Name=Fabrication
 ParameterCount=0
 ConstraintFileCount=0
-ReleaseItemId=BE0332BE-F81E-4C59-87E3-9C9109371CFA
+ReleaseItemId=
 Variant=[No Variations]
 OutputJobsCount=1
 DocumentReferenceClass1=DocumentReference
@@ -215,11 +234,11 @@ ContentTypeGUID=0D12F8DC-E60C-11DF-B822-12313F0024A2
 ConfigurationType=Assembly
 
 [Configuration4]
-Name=Assembly SPI Only (BinarX)
+Name=Assembly BinarX
 ParameterCount=0
 ConstraintFileCount=0
 ReleaseItemId=
-Variant=SPI Only (BinarX)
+Variant=BinarX
 OutputJobsCount=1
 DocumentReferenceClass1=DocumentReference
 OutputJobFileName1=Assembly.OutJob
@@ -227,16 +246,54 @@ ContentTypeGUID=0D12F8DC-E60C-11DF-B822-12313F0024A2
 ConfigurationType=Assembly
 
 [Configuration5]
-Name=Assembly SPI and UART
+Name=Assembly AERO3001 Spacecraft Project
 ParameterCount=0
 ConstraintFileCount=0
-ReleaseItemId=1B088594-E11B-4503-9967-E91AD2E2F994
-Variant=SPI and UART
+ReleaseItemId=
+Variant=AERO3001 Spacecraft Project
 OutputJobsCount=1
 DocumentReferenceClass1=DocumentReference
 OutputJobFileName1=Assembly.OutJob
 ContentTypeGUID=0D12F8DC-E60C-11DF-B822-12313F0024A2
 ConfigurationType=Assembly
+
+[Generic_SmartPDF]
+AutoOpenFile=-1
+AutoOpenOutJob=-1
+
+[Generic_SmartPDFSettings]
+ProjectMode=-1
+ZoomPrecision=50
+AddNetsInformation=-1
+AddNetPins=-1
+AddNetNetLabels=-1
+AddNetPorts=-1
+ShowComponentParameters=-1
+GlobalBookmarks=0
+ExportBOM=-1
+TemplateFilename=Board Stack Report.XLT
+TemplateStoreRelative=-1
+PCB_PrintColor=1
+SCH_PrintColor=0
+PrintQuality=-3
+SCH_ShowNoErc=-1
+SCH_ShowParameter=-1
+SCH_ShowProbes=-1
+SCH_ShowBlankets=-1
+SCH_NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle
+SCH_ShowNote=-1
+SCH_ShowNoteCollapsed=-1
+Wir_PrintColor=0
+Ldr_PrintColor=0
+SCH_ExpandLogicalToPhysical=-1
+SCH_VariantName=[No Variations]
+SCH_ExpandComponentDesignators=-1
+SCH_ExpandNetlabels=0
+SCH_ExpandPorts=0
+SCH_ExpandSheetNumber=0
+SCH_ExpandDocumentNumber=0
+SCH_HasExpandLogicalToPhysicalSheets=-1
+SaveSettingsToOutJob=-1
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -363,8 +420,8 @@ OutputDefault1=0
 [OutputGroup3]
 Name=Documentation Outputs
 Description=
-TargetPrinter=Black
-PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+TargetPrinter=Microsoft Print to PDF
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=0
 OutputType1=Composite
 OutputName1=Composite Drawing
 OutputDocumentPath1=
@@ -413,42 +470,48 @@ OutputDocumentPath8=
 OutputVariantName8=[No Variations]
 OutputDefault8=0
 PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType9=PCBLIB Print
-OutputName9=PCBLIB Prints
+OutputType9=PCBDrawing
+OutputName9=Draftsman
 OutputDocumentPath9=
 OutputVariantName9=[No Variations]
 OutputDefault9=0
 PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType10=PDF3D
-OutputName10=PDF3D
+OutputType10=PCBLIB Print
+OutputName10=PCBLIB Prints
 OutputDocumentPath10=
 OutputVariantName10=[No Variations]
 OutputDefault10=0
 PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType11=PDF3D MBA
-OutputName11=PDF3D MBA
+OutputType11=PDF3D
+OutputName11=PDF3D
 OutputDocumentPath11=
-OutputVariantName11=
+OutputVariantName11=[No Variations]
 OutputDefault11=0
 PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType12=Report Print
-OutputName12=Report Prints
+OutputType12=PDF3D MBA
+OutputName12=PDF3D MBA
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
 PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType13=Schematic Print
-OutputName13=Schematic Prints
+OutputType13=Report Print
+OutputName13=Report Prints
 OutputDocumentPath13=
 OutputVariantName13=
 OutputDefault13=0
 PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType14=SimView Print
-OutputName14=SimView Prints
+OutputType14=Schematic Print
+OutputName14=Schematic Prints
 OutputDocumentPath14=
 OutputVariantName14=
 OutputDefault14=0
 PageOptions14=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType15=SimView Print
+OutputName15=SimView Prints
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
+PageOptions15=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup4]
 Name=Assembly Outputs
@@ -953,6 +1016,16 @@ Type117=1
 Type118=1
 Type119=1
 Type120=1
+Type121=1
+Type122=1
+Type123=1
+Type124=1
+Type125=1
+Type126=1
+Type127=1
+Type128=1
+Type129=1
+Type130=1
 
 [Difference Levels]
 Type1=1
@@ -1023,6 +1096,12 @@ Type65=1
 Type66=1
 Type67=1
 Type68=1
+Type69=1
+Type70=1
+Type71=1
+Type72=1
+Type73=1
+Type74=1
 
 [Electrical Rules Check]
 Type1=1
@@ -1151,6 +1230,30 @@ Type124=1
 Type125=1
 Type126=1
 Type127=1
+Type128=2
+Type129=2
+Type130=2
+Type131=2
+Type132=2
+Type133=2
+Type134=2
+Type135=2
+Type136=2
+Type137=2
+Type138=1
+Type139=1
+Type140=1
+Type141=1
+Type142=1
+Type143=1
+Type144=1
+Type145=1
+Type146=1
+Type147=2
+Type148=2
+Type149=2
+Type150=2
+Type151=2
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW

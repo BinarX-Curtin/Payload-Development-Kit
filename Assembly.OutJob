@@ -19,7 +19,7 @@ Name=Assembly.OutJob
 Description=
 TargetOutputMedium=BOM
 VariantName=SPI and UART
-VariantScope=1
+VariantScope=2
 CurrentConfigurationName=Assembly
 TargetPrinter=Black
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
@@ -164,13 +164,19 @@ PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintS
 Configuration7_Name1=ColumnNameFormat
 Configuration7_Item1=CaptionAsName
 Configuration7_Name2=General
-Configuration7_Item2=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=3291E871-BF2B-4833-AEF7-9CA0DA46D7F6|TemplateItemGuid=F75A6CC5-0427-4019-8C0F-81EFCEC4BD8C|TemplateRevisionGuid=9FD88434-FEEE-47FE-A97F-AB2AF9BDB617|BatchMode=6|FormWidth=1200|FormHeight=710|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=AUD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=1|UseDirectApi=False|BomSetName=
+Configuration7_Item2=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=0|FormWidth=1200|FormHeight=710|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=AUD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=1|UseDirectApi=False|BomSetName=
 Configuration7_Name3=GroupOrder
 Configuration7_Item3=Comment=True|Footprint=True
 Configuration7_Name4=SortOrder
 Configuration7_Item4=Designator=Up|Comment=Up|Footprint=Up
 Configuration7_Name5=VisibleOrder
 Configuration7_Item5=Comment=120|Description=120|Designator=120|Footprint=120|LibRef=120|Quantity=120
+Configuration7_Name6=VisibleOrder_Base
+Configuration7_Item6=Line #=54|Comment=317|Description=334|Designator=79|Revision ID=79|Revision State=114|Revision Status=99|Quantity=67|Manufacturer 1=101|Manufacturer Part Number 1=170|Manufacturer Lifecycle 1=147|Supplier 1=74|Supplier Part Number 1=143|Supplier Unit Price 1=127|Supplier Subtotal 1=120
+Configuration7_Name7=VisibleOrder_Consolidated
+Configuration7_Item7=Line #=100|Comment=100|Description=100|Designator=100|Revision ID=100|Revision State=100|Revision Status=100|Quantity=100|Manufacturer 1=101|Manufacturer Part Number 1=170|Manufacturer Lifecycle 1=147|Supplier 1=74|Supplier Part Number 1=143|Supplier Unit Price 1=127|Supplier Subtotal 1=120|Quantity@BinarX=100|Price@BinarX=100|Quantity@Spacecraft Project=100|Price@Spacecraft Project=100
+Configuration7_Name8=VisibleOrder_Flat
+Configuration7_Item8=Line #=100|Comment=100|Description=100|Designator=100|Revision ID=100|Revision State=100|Revision Status=100|Manufacturer 1=101|Manufacturer Part Number 1=170|Manufacturer Lifecycle 1=147|Supplier 1=74|Supplier Part Number 1=143|Supplier Unit Price 1=127|Supplier Subtotal 1=120
 
 [PublishSettings]
 OutputFilePath2=Project Outputs for Free Documents\AssemblyDrawing.pdf
@@ -202,7 +208,7 @@ PDFACompliance2=Disabled
 PDFVersion2=Default
 OutputFilePath3=Project Outputs for Free Documents\
 ReleaseManaged3=1
-OutputBasePath3=Project Outputs for Payload Development Kit
+OutputBasePath3=
 OutputPathMedia3=
 OutputPathMediaValue3=
 OutputPathOutputer3=[Output Type]
@@ -215,7 +221,7 @@ OutputFileNameSpecial3=
 OpenOutput3=0
 OutputFilePath4=C:\Users\Public\Documents\Altium\Spacecraft Emulator Nucleo-144 Shield\Project Outputs for Payload Development Kit\BOM\
 ReleaseManaged4=1
-OutputBasePath4=Project Outputs for Payload Development Kit
+OutputBasePath4=
 OutputPathMedia4=[Media Name]
 OutputPathMediaValue4=
 OutputPathOutputer4=
